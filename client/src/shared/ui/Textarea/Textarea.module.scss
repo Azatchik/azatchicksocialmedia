@@ -1,0 +1,21 @@
+.textArea {
+    padding: 10px;
+    width: 70%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 2px 0 var(--ninth-color);
+    background: var(--seventeenth-color);
+    resize: none;
+    color: var(--fourth-color);
+    font: var(--font-s);
+    outline: none;
+    word-break: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    height: auto;
+}
+
+
+.textArea::-webkit-scrollbar-thumb {
+    background: transparent;
+}

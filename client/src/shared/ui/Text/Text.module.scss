@@ -1,0 +1,163 @@
+.withIcon {
+    display: flex;
+    align-items: center;
+    .icon {
+        margin-right: 7px;
+        display: inline;
+    }
+    .text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.noWrap {
+    .text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.ellipsis {
+    .text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.primary {
+    .text {
+        color: var(--fourth-color);
+    }
+}
+
+.secondary {
+    .text {
+        color: var(--sixth-color);
+    }
+}
+
+.grey {
+    .text {
+        color: var(--ninth-color);
+    }
+    .icon {
+        fill: var(--ninth-color);
+    }
+}
+
+.blue {
+    .text {
+        color: var(--third-color);
+    }
+    .icon {
+        fill: var(--ninth-color);
+    }
+}
+
+.white {
+    .text {
+        color: var(--second-color);
+    }
+}
+
+.error {
+    .text {
+        color: var(--red-dark);
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.size_ss {
+    .text {
+        font: var(--font-ss);
+    }
+}
+
+.size_s {
+    .text {
+        font: var(--font-s);
+    }
+}
+
+.size_sm {
+    .text {
+        font: var(--font-sm);
+    }
+}
+
+
+.size_ssm {
+    .text {
+        font: var(--font-ssm);
+    }
+}
+
+.size_m {
+    .text {
+        font: var(--font-m);
+    }
+}
+
+.size_ml {
+    .text {
+        font: var(--font-ml);
+    }
+}
+
+.size_l {
+    .text {
+        font: var(--font-l);
+    }
+}
+
+
+.size_xl {
+    .text {
+        font: var(--font-xl);
+    }
+}
+
+
+
+
+
+.size_ss-bold {
+    .text {
+        font: var(--font-ss-bold);
+    }
+}
+
+.size_s-bold  {
+    .text {
+        font: var(--font-s-bold);
+    }
+}
+
+.size_sm-bold  {
+    .text {
+        font: var(--font-sm-bold);
+    }
+}
+
+
+.size_ssm-bold  {
+    .text {
+        font: var(--font-ssm-bold);
+    }
+}

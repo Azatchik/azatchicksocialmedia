@@ -1,0 +1,66 @@
+.MusicRecommendations {
+    min-width: 753px;
+    width: 753px;
+    height: 304px;
+    position: relative;
+}
+
+.header {
+    padding: 16px;
+    box-shadow: 0 1px 1px -1px var(--ninth-color);
+    position: absolute;
+    user-select: none;
+}
+
+.musicStack {
+    flex-wrap: wrap;
+    padding-top: 70px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+.contentWrapper {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.musicItem {
+    width: 230px;
+}
+
+.contentWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.recommendationNotFound {
+    padding-top: 150px;
+}
+
+
+.stackBtnPrev,
+.stackBtnNext {
+    position: absolute;
+    top: 125px;
+    opacity: 0.6;
+    &:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+    width: 20px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.stackBtnPrev {
+    left: 2px;
+}
+
+.stackBtnNext {
+    right: 2px;
+}
+
+.refreshBtn:active {
+    transform: scale(0.95);
+}

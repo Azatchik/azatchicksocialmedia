@@ -1,0 +1,45 @@
+.toggleWrapper {
+    position: absolute;
+    z-index: 1000;
+    width: 54px;
+    height: 32px;
+    border-radius: 50px;
+    background: var(--sixth-color);
+    bottom: 20px;
+    left: 20px;
+}
+
+.toggleHandler {
+    position: absolute;
+    transition: all 0.2s linear;
+    width: 28px;
+    height: 28px;
+    background: var(--toggle-handler-color);
+    border-radius: 50px;
+    top: 2px;
+    left: 2px;
+}
+
+.checked {
+    .toggleHandler {
+        transform: translateX(22px);
+    }
+}
+
+.icon {
+    width: 90%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    animation: Opacity 0.3s linear forwards;
+    opacity: 0.3;
+}
+
+@keyframes Opacity {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,20 @@
+.Navbar {
+    height: var(--navbar-height);
+    width: 100%;
+    background: var(--seventeenth-color);
+    box-shadow: 0 0 3px 0 var(--fifteenth-color);
+    z-index: var(--navbar-z-index);
+    padding-left: 250px;
+    padding-right: 450px;
+}
+
+.mainLogoLink {
+    &:active {
+        transform: translateY(1px);
+    }
+}
+
+.navbarWrapper {
+    position: relative;
+    min-width: 900px;
+}

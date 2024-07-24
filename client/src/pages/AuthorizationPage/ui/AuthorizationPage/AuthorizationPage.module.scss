@@ -1,0 +1,47 @@
+.AuthorizationPage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    padding-bottom: 10px;
+    background: var(--first-color);
+}
+
+.authorizationWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 180px;
+}
+
+.welcomeBlock {
+    width: 40%;
+    color: var(--sixth-color);
+}
+
+.firstWelcome {
+    margin-bottom: 40px;
+    min-width: 640px;
+}
+
+.secondWelcome {
+    min-width: 238px;
+}
+
+.conditions {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    width: 305px;
+}
+
+.loginBtn {
+    margin-top: 10px;
+}
+
+.footer {
+    flex-shrink: 1;
+    margin-top: auto;
+}

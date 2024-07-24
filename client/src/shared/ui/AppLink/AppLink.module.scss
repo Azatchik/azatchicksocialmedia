@@ -1,0 +1,120 @@
+.AppLink {
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.panel {
+    background: transparent;
+    border-radius: 12px;
+    transition: all 0.2s linear;
+    &:hover {
+        background: var(--tenth-color);
+    }
+    display: flex;
+    justify-content: start;
+}
+
+.untheme {
+    color: var(--fourth-color);
+    background: transparent;
+    border-radius: 0;
+    display: flex;
+    justify-content: start;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.clean {
+    color: var(--sixth-color);
+    background: transparent;
+    transition: all 0.1s linear;
+    &:hover {
+        background: var(--tenth-color);
+    }
+    &:active {
+        transform: scale(0.99);
+    }
+}
+
+.clean_blue {
+    color: var(--third-color);
+    background: transparent;
+    transition: all 0.1s linear;
+}
+
+.primary {
+    background-color: var(--third-color);
+    color: var(--second-color);
+    transition: all 0.1s linear;
+    &:hover {
+        filter: brightness(93%)
+    }
+    &:active {
+        transform: scale(0.99);
+    }
+}
+
+.primary_black {
+    background-color: var(--fourth-color);
+    color: var(--first-color);
+    font: var(--font-m);
+    transition: all 0.1s linear;
+    &:hover {
+        background-color: var(--eleventh-color);
+    }
+    &:active {
+        transform: scale(0.99);
+    }
+}
+
+
+.small {
+    font: var(--font-smm);
+}
+
+.medium {
+    font: var(--font-sm);
+    padding-right: 25px;
+    padding-left: 8px;
+    padding-block: 8px;
+}
+
+.big {
+    font: var(--font-mmml);
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-block: 10px;
+}
+
+
+
+.small-bold {
+    font: var(--font-smm);
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-block: 3px;
+}
+
+.medium-bold  {
+    font: var(--font-sm);
+    padding-right: 25px;
+    padding-left: 8px;
+    padding-block: 8px;
+}
+
+.selected {
+    font: var(--font-sm-bold);
+    color: var(--fourth-color);
+}

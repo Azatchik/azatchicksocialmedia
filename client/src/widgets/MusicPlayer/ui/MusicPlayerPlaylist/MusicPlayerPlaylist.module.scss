@@ -1,0 +1,48 @@
+.MusicPlayerPlaylist {
+    position: absolute;
+    height: 600px;
+    width: 720px;
+    bottom: -600px;
+    left: 180px;
+    z-index: 1;
+    border-radius: 0 0 8px 8px;
+}
+
+.list {
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.listItem {
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 8px;
+}
+
+.listHeader {
+    padding-left: 28px;
+}
+
+.playlistHeader {
+    box-shadow: 0 0 1px 0 var(--ninth-color);
+    padding-block: 15px;
+}
+
+.currentMusic {
+    width: 300px;
+}
+
+.musicImg {
+    border-radius: 8px;
+}
+
+.musicInfo {
+    flex-grow: 1;
+    margin-left: 8px;
+    overflow: hidden;
+}
+
+.name,
+.artist {
+    width: 213px;
+}

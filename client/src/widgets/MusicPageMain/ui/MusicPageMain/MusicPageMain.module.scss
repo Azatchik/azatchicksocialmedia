@@ -1,0 +1,19 @@
+.MusicPageMain {
+    padding: 20px;
+    min-width: 753px;
+    width: 753px;
+    min-height: 310px;
+}
+
+.uploadBtn {
+    cursor: pointer;
+    border: 2px solid var(--third-color);
+    padding: 5px;
+    border-radius: 8px;
+    background: transparent;
+    &:hover {
+        background: var(--twentyfourth-color);
+    }
+    user-select: none;
+}
+

@@ -1,0 +1,68 @@
+
+.duration {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    top: -40px;
+    visibility: hidden;
+    pointer-events: none;
+    background: var(--seventeenth-color);
+    border-radius: 8px 8px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--fourth-color);
+}
+
+.Range {
+    position: relative;
+    height: 3px;
+    &:active {
+        .duration {
+            visibility: visible;
+        }
+    }
+}
+
+.input {
+    -webkit-appearance: none;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    bottom: -7px;
+    right: 0;
+    z-index: 2;
+    background: transparent;
+}
+
+.input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+}
+
+.input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    width: 100%; /* Ширина трека */
+    height: 100%; /* Высота трека */
+    background: transparent;
+    cursor: pointer;
+}
+
+.thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--third-color);
+    z-index: 1;
+}
+
+.background {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--twentyfirst-color);
+}

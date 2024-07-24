@@ -1,0 +1,65 @@
+.Icon {
+
+}
+
+.link > path {
+    fill: var(--eighteenth-color);
+}
+
+.untheme {
+
+}
+
+.grey {
+    fill: var(--fifteenth-color);
+}
+
+.blue {
+    fill: var(--third-color);
+}
+
+.red {
+    fill: var(--twelfth-color);
+}
+
+.primary {
+    fill: var(--sixth-color);
+}
+
+.secondary {
+    fill: var(--second-color);
+}
+
+.panel {
+    fill: var(--fourth-color);
+}
+
+.big {
+    min-width: 400px;
+    width: 400px;
+}
+
+.small {
+    min-width: 22px;
+    width: 22px;
+}
+
+.higher_small {
+    min-width: 25px;
+    width: 25px;
+}
+
+.lower_small {
+    min-width: 17px;
+    width: 17px;
+}
+
+.lower_medium {
+    min-width: 58px;
+    width: 58px;
+}
+
+.medium {
+    min-width: 110px;
+    width: 110px;
+}

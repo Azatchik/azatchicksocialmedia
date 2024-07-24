@@ -1,0 +1,56 @@
+.Card {
+    padding: 15px;
+    border-radius: 12px;
+    background: transparent;
+}
+
+.normal {
+    background: var(--first-color);
+}
+
+.blue {
+    background: var(--seventh-color);
+}
+
+.panel {
+    border: none;
+    box-shadow: 0 0 3px 0 var(--ninth-color);
+    background: var(--seventeenth-color);
+    border-radius: 8px;
+    padding: 0;
+}
+
+.panel_tab {
+    border: none;
+    background: var(--seventeenth-color);
+    border-radius: 8px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    &:hover {
+        background: var(--twentyfirst-color);
+    }
+}
+
+.panel_selected {
+    border: 1px solid var(--ninth-color);
+    background: var(--twentyfirst-color);
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: -1px;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        border-radius: 8px;
+        box-shadow: 0 0 3px 0 var(--twentieth-color);
+    }
+}
+

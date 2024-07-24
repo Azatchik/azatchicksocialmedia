@@ -1,0 +1,58 @@
+.Wrapper {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    color: var(--ninth-color);
+    font: var(--font-s);
+}
+
+.select {
+    outline: none;
+    border: 1px solid var(--ninth-color);
+    border-radius: 5px;
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    font: var(--font-m);
+    margin: 1px;
+}
+
+.option {
+    color: var(--fourth-color);
+    background: var(--first-color);
+    width: 100%;
+    &:checked {
+        background: var(--seventh-color);
+    }
+}
+
+.focused {
+    .select {
+        border: 2px solid var(--third-color);
+        margin: 0;
+    }
+    .label {
+        color: var(--third-color);
+    }
+}
+
+.day_size {
+    .select {
+        padding: 25px 40px 5px 5px;
+    }
+}
+
+.month_size {
+    .select {
+        padding: 25px 60px 5px 5px;
+    }
+}
+
+.year_size {
+    .select {
+        padding: 25px 50px 5px 5px;
+    }
+}

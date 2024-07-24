@@ -1,0 +1,96 @@
+:root {
+    --font-family-light: "Segoe UI", serif;
+    --font-family-semibold: "Segoe UI Semibold", serif;
+    --font-family-bold: "Segoe UI Black", serif;
+
+
+    // ss
+    --font-size-ss: 11px;
+    --font-line-ss: 13px;
+    --font-ss: var(--font-size-ss) / var(--font-line-ss) var(--font-family-light);
+
+    // ss-bold
+    --font-size-ss-bold: 11px;
+    --font-line-ss-bold: 13px;
+    --font-ss-bold: var(--font-size-ss-bold) / var(--font-line-ss-bold) var(--font-family-semibold);
+
+
+    // s
+    --font-size-s: 14px;
+    --font-line-s: 16px;
+    --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-light);
+
+    // s-bold
+    --font-size-s-bold: 15px;
+    --font-line-s-bold: 17px;
+    --font-s-bold: var(--font-size-s-bold) / var(--font-line-s-bold) var(--font-family-semibold);
+
+    // ssm
+    --font-size-ssm: 16px;
+    --font-line-ssm: 24px;
+    --font-ssm: var(--font-size-ssm) / var(--font-line-ssm) var(--font-family-light);
+
+    // ssm - bold
+    --font-size-ssm-bold: 16px;
+    --font-line-ssm-bold: 24px;
+    --font-ssm-bold: var(--font-size-ssm-bold) / var(--font-line-ssm-bold) var(--font-family-semibold);
+
+    // sm
+    --font-size-sm: 20px;
+    --font-line-sm: 29px;
+    --font-sm: var(--font-size-sm) / var(--font-line-sm) var(--font-family-light);
+
+    // sm-bold
+    --font-size-sm-bold: 20px;
+    --font-line-sm-bold: 29px;
+    --font-sm-bold: var(--font-size-sm-bold) / var(--font-line-sm-bold) var(--font-family-semibold);
+
+    // smm
+    --font-size-smm: 15px;
+    --font-line-smm: 22px;
+    --font-smm: var(--font-size-smm) / var(--font-line-smm) var(--font-family-semibold);
+
+    // m
+    --font-size-m: 17px;
+    --font-line-m: 25px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-semibold);
+
+    // mmml
+    --font-size-mmml: 19px;
+    --font-line-mmml: 28px;
+    --font-mmml: var(--font-size-mmml) / var(--font-line-mmml) var(--font-family-semibold);
+
+    // mml
+    --font-size-mml: 21px;
+    --font-line-mml: 32px;
+    --font-mml: var(--font-size-mml) / var(--font-line-mml) var(--font-family-semibold);
+
+    // ml
+    --font-size-ml: 29px;
+    --font-line-ml: 35px;
+    --font-ml: var(--font-size-ml) / var(--font-line-ml) var(--font-family-semibold);
+
+    // l
+    --font-size-l: 32px;
+    --font-line-l: 40px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-semibold);
+
+    // xl
+    --font-size-xl: 72px;
+    --font-line-xl: 80px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-bold);
+
+    // Размеры
+    --navbar-height: 70px;
+    --sidebar-width: 220px;
+
+    // z - Индексы
+    --modal-z-index: 10;
+    --navbar-z-index: 8;
+    --popup-z-index: 25;
+
+    // Цвета
+    --overlay-color: rgba(0 0 0 / 60%);
+    --red-light: #f00;
+    --red-dark: #ce0505;
+}

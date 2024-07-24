@@ -1,0 +1,13 @@
+.AuthorizationPageFooter {
+
+}
+
+.info {
+    cursor: pointer;
+    color: var(--fifth-color);
+    font: var(--font-s);
+    white-space: nowrap;
+    &:hover {
+        text-decoration: underline;
+    }
+}

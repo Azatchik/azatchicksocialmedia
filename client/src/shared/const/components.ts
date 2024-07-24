@@ -1,0 +1,1 @@
+export const MUSIC_PLAYER_ID = 'MUSIC_PLAYER_ID';

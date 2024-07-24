@@ -1,0 +1,29 @@
+.ConfirmCodeForm {
+    flex-shrink: 1;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.entrance {
+    margin-bottom: 25px;
+}
+
+.mainLogo {
+    margin-bottom: 60px;
+    margin-right: 15px;
+}
+
+.phoneSentCode {
+    margin-bottom: 20px;
+}
+
+.promptCode {
+    position: absolute;
+    top: -40px;
+    right: -610px;
+    width: 390px;
+}
+
+.sendCodeAgainBtn {
+    margin-top: 8px;
+}

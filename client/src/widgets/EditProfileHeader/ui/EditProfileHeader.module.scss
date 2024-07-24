@@ -1,0 +1,115 @@
+.EditProfileHeader {
+    min-width: 700px;
+    width: 700px;
+    height: 340px;
+    overflow: hidden;
+}
+
+.title {
+    height: 15%;
+    padding-left: 20px;
+}
+
+.parametersWrapper {
+    position: relative;
+    height: 85%;
+}
+
+.headerImg {
+    position: absolute;
+}
+
+.parameters {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 53%;
+    bottom: 0;
+    background: var(--seventeenth-color);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-inline: 10px;
+}
+
+
+.fullName {
+    height: 50%;
+    box-shadow: 0 2px 2px -2px var(--ninth-color);
+    padding-inline: 10px;
+}
+
+.fullNameText {
+    width: 150px;
+}
+
+.birthData {
+    height: 50%;
+    padding-inline: 10px;
+}
+
+.birthDataNums {
+    padding-left: 12px;
+}
+
+.avatarWrapper {
+    position: absolute;
+    outline: 4px solid var(--seventeenth-color);
+    left: 50px;
+    top: 77px;
+    z-index: 3;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatarDropdown {
+    top: 110px;
+    right: -84px;
+    z-index: 5;
+}
+
+.avatarCameraIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.avatarWrapper::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--twentythird-color);
+    border-radius: 50%;
+}
+
+.headerDropdown {
+    right: 2px;
+    top: 30px;
+    z-index: 4;
+}
+
+.editHeader {
+    padding: 5px;
+    border: 2px solid var(--second-color);
+    border-radius: 8px;
+}
+
+.editHeaderWrapper {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 4;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+        .editHeader {
+            transition: all 0.2s linear;
+            background: var(--twentyfourth-color);
+            opacity: 0.3;
+        }
+    }
+}

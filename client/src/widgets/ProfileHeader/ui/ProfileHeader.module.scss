@@ -1,0 +1,53 @@
+.ProfileHeader {
+    flex-shrink: 1;
+    min-width: 984px;
+    width: 100%;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatarImg {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    z-index: 2;
+    outline: 4px solid var(--seventeenth-color);
+}
+
+.infoBlock {
+    background: var(--seventeenth-color);
+    width: 100%;
+    height: 43%;
+    border-radius: 8px;
+    z-index: 1;
+    padding: 20px 20px 20px 245px;
+    position: absolute;
+    bottom: 0;
+}
+
+.mainInfo {
+    width: 60%;
+    height: 100%;
+}
+
+.education {
+    width: 100px;
+}
+
+.city {
+    max-width: 190px;
+}
+
+.lifeInfo {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.headerBtns {
+    margin-left: auto;
+}
+
+.editProfileBtn {
+    margin-left: auto;
+}

@@ -1,0 +1,14 @@
+.Tabs {
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

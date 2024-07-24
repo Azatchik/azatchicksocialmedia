@@ -1,0 +1,48 @@
+@import "reset";
+@import "variables/global";
+@import "themes/light";
+@import "themes/dark";
+
+
+body {
+    min-width: 1050px;
+    overflow-x: hidden;
+}
+
+#root {
+    width: 100%;
+    position: relative;
+}
+
+.app {
+    height: 100vh;
+    background: var(--sixteenth-color);
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-page {
+    display: flex;
+    height: calc(100vh - var(--navbar-height));
+}
+
+*::-webkit-scrollbar {
+    width: 4px;  /* ширина scrollbar */
+    height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;        /* цвет дорожки */
+    margin: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--fifteenth-color);    /* цвет плашки */
+    border-radius: 20px;  /* закругления плашки */
+}
+
+
+

@@ -1,0 +1,92 @@
+.Input {
+    position: relative;
+}
+
+.placeholder {
+    position: absolute;
+    color: var(--ninth-color);
+    font: var(--font-sm);
+    left: 7px;
+    top: 15px;
+    z-index: -1;
+}
+
+.optional {
+    position: absolute;
+    color: var(--third-color);
+    font: var(--font-ss);
+    left: 7px;
+    top: 3px;
+    z-index: -1;
+}
+
+.input {
+    background: transparent;
+    border: 1px solid var(--ninth-color);
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: var(--fourth-color);
+    padding: 20px 20px 0 7px;
+    font: var(--font-m);
+    border-radius: 5px;
+}
+
+.focused {
+    .input {
+        border: 2px solid var(--third-color);
+    }
+
+    .placeholder {
+        color: var(--third-color);
+        transition: all 0.1s linear;
+        font: var(--font-ssm);
+        top: 0;
+        left: 7px;
+    }
+    .optional {
+        visibility: hidden;
+    }
+}
+
+.wrong {
+    .input {
+        border: 2px solid var(--twelfth-color);
+    }
+}
+
+.correct {
+    .input {
+        transition: border 0.3s linear;
+        border: 2px solid var(--thirteenth-color);
+    }
+}
+
+.eyeBtn {
+    position: absolute;
+    right: 4px;
+    top: 9px;
+    & > svg {
+        fill: var(--fourth-color);
+    }
+}
+
+.eyePadding {
+    .input {
+        padding-right: 50px;
+    }
+}
+
+
+.primary_size {
+    width: 260px;
+    height: 58px;
+}
+
+.wide_size {
+    .input {
+        font: var(--font-mml);
+    }
+    width: 420px;
+    height: 60px;
+}

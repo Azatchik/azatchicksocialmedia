@@ -1,0 +1,20 @@
+.MediaModal {
+    z-index: calc(var(--modal-z-index) + 1);
+}
+
+.leftArrow,
+.rightArrow {
+    position: absolute;
+    top: 300px
+}
+
+.leftArrow {
+    left: 30px;
+    z-index: 2;
+}
+
+.rightArrow {
+    right: 30px;
+    z-index: 2;
+}
+
